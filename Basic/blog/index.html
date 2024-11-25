@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="#post1">Post 1</a></li>
+                <li><a href="#post2">Post 2</a></li>
+                <li><a href="#post3">Post 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Blog Posts -->
+    <main>
+        <!-- Post 1 -->
+        <article id="post1" class="blog-post">
+            <h2>Blog Post 1</h2>
+            <p class="date">Published on: <span>24 November 2024</span></p>
+            <img src="https://via.placeholder.com/600x300" alt="Post 1 Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod dictum augue, et aliquam nisi convallis non.</p>
+            <div class="comments">
+                <h3>Comments</h3>
+                <ul class="comment-list"></ul>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your Name" class="name-input" required>
+                    <textarea placeholder="Your Comment" class="message-input" required></textarea>
+                    <button type="submit">Add Comment</button>
+                </form>
+            </div>
+        </article>
+
+        <!-- Post 2 -->
+        <article id="post2" class="blog-post">
+            <h2>Blog Post 2</h2>
+            <p class="date">Published on: <span>23 November 2024</span></p>
+            <img src="https://via.placeholder.com/600x300" alt="Post 2 Image">
+            <p>Nulla facilisi. Cras id risus nec libero eleifend interdum. Curabitur posuere magna et urna.</p>
+            <div class="comments">
+                <h3>Comments</h3>
+                <ul class="comment-list"></ul>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your Name" class="name-input" required>
+                    <textarea placeholder="Your Comment" class="message-input" required></textarea>
+                    <button type="submit">Add Comment</button>
+                </form>
+            </div>
+        </article>
+
+        <!-- Post 3 -->
+        <article id="post3" class="blog-post">
+            <h2>Blog Post 3</h2>
+            <p class="date">Published on: <span>22 November 2024</span></p>
+            <img src="https://via.placeholder.com/600x300" alt="Post 3 Image">
+            <p>Vivamus nec eros sit amet justo tempor venenatis. Donec vestibulum magna in dapibus tincidunt.</p>
+            <div class="comments">
+                <h3>Comments</h3>
+                <ul class="comment-list"></ul>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your Name" class="name-input" required>
+                    <textarea placeholder="Your Comment" class="message-input" required></textarea>
+                    <button type="submit">Add Comment</button>
+                </form>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

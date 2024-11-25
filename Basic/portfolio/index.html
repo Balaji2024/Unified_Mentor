@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="home">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Hello, I'm Balaji</h1>
+            <p>Welcome to my portfolio!</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Recent computer science graduate seeking a Full Stack Developer role to apply theoretical knowledge in a
+            practical setting.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-gallery">
+            <div class="project">
+                <img src="placeholder1.jpg" alt="Project 1">
+                <h3>Weather App</h3>
+                <p>A "weather app project" aims to develop a digital application that allows users to access real-time
+                    and forecasted weather information for any location by utilizing weather APIs.</p>
+            </div>
+            <div class="project">
+                <img src="placeholder2.jpg" alt="Project 2">
+                <h3>Basic Calculator</h3>
+                <p>A "basic calculator project" refers to a programming project where you create a simple application
+                    that allows users to perform basic arithmetic operations like addition, subtraction, multiplication,
+                    and division by inputting numbers and selecting an operator (+, -, *, /), with the result displayed
+                    on the screen.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Balaji Jare. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

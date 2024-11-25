@@ -1,6 +1,6 @@
 // JavaScript for Weather App
 document.addEventListener("DOMContentLoaded", () => {
-    const apiKey = "bd5e378503939ddaee76f12ad7a97608"; // Replace with your OpenWeatherMap API key
+    const apiKey = "YOUR_API_KEY"; // Replace with your OpenWeatherMap API key
     const searchButton = document.getElementById("search-button");
     const cityInput = document.getElementById("city-input");
     const weatherInfo = document.getElementById("weather-info");
